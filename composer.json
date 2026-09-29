@@ -1,0 +1,19 @@
+{
+    "name": "nfourteen/aggregate-product-metapackage",
+    "description": "Metapackage installing the Nfourteen Aggregate Product suite: product type, GraphQL, import/export, and MSI integration.",
+    "type": "metapackage",
+    "authors": [
+        {
+            "name": "David Nimorwicz",
+            "email": "dave@nfourteen.com"
+        }
+    ],
+    "license": "OSL-3.0",
+    "require": {
+        "php": ">=8.3",
+        "nfourteen/module-aggregate-product": "*",
+        "nfourteen/module-aggregate-product-graph-ql": "*",
+        "nfourteen/module-aggregate-product-import-export": "*",
+        "nfourteen/module-inventory-aggregate-product": "*"
+    }
+}
