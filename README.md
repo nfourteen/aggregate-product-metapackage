@@ -2,6 +2,9 @@
 
 Installs the Nfourteen Aggregate Product suite for Magento 2. Ships no code of its own - it only declares the dependency set.
 
+> [!WARNING]
+> **Beta - not for production use.** The Aggregate Product suite is in beta, and this applies to every package this metapackage installs. There are no tagged releases yet, known bugs are still being fixed, and behavior, configuration and stored data may change between commits without an upgrade path. Use it in development or staging environments only.
+
 | Package | Module | Purpose |
 | --- | --- | --- |
 | `nfourteen/module-aggregate-product` | `Nfourteen_AggregateProduct` | The `aggregate` product type: sell groups of products at fixed quantities |
